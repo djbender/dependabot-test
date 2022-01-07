@@ -3,4 +3,9 @@ updates:
   - package-ecosystem: bundler
     directory: /
     schedule:
-      interval: daily
+      interval: monthly
+
+  - package-ecosystem: bundler
+    directory: /gems/foo/
+    schedule:
+      interval: monthly
